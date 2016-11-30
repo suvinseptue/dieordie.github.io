@@ -26,7 +26,7 @@ var PhotoList = React.createClass({
     },
     componentDidMount: function () {
         $.ajax({
-            url: "photos/list_all.php",
+            url: "photos/list_all.json",
             dataType: "json"
         }).success(function (res) {
             this.setState({data: res.Contents});
