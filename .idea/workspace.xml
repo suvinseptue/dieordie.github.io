@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2561ab05-56f8-485b-a5cf-a6f0bc3500e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/video.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/video-babel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nexttrip.html" afterPath="$PROJECT_DIR$/nexttrip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/navigation.tml" afterPath="$PROJECT_DIR$/views/navigation.tml" />
     </list>
     <ignored path="vc10500.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,20 +47,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video-babel.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="video-babel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/video-babel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
+            <state relative-caret-position="1782">
               <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
-              <folding>
-                <marker date="1480519027000" expanded="true" signature="3158:4330" placeholder="{...}" />
-                <marker date="1480519027000" expanded="true" signature="3176:4324" placeholder="&lt;xml/&gt;" />
-                <marker date="1480519027000" expanded="true" signature="3224:4091" placeholder="&lt;xml/&gt;" />
-                <marker date="1480519027000" expanded="true" signature="3262:4072" placeholder="&lt;xml/&gt;" />
-                <marker date="1480519027000" expanded="true" signature="3335:4049" placeholder="&lt;xml/&gt;" />
-                <marker date="1480519027000" expanded="true" signature="4104:4309" placeholder="&lt;xml/&gt;" />
-                <marker date="1480519027000" expanded="true" signature="4142:4290" placeholder="&lt;xml/&gt;" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nexttrip.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nexttrip.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="49" column="60" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.tml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/navigation.tml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,6 +121,9 @@
         <option value="$PROJECT_DIR$/data/video.json" />
         <option value="$PROJECT_DIR$/video.html" />
         <option value="$PROJECT_DIR$/js/video-babel.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/nexttrip.html" />
+        <option value="$PROJECT_DIR$/views/navigation.tml" />
       </list>
     </option>
   </component>
@@ -160,6 +185,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vc10500.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vc10500.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vc10500.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -798,12 +837,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480496791342</updated>
-      <workItem from="1480496794085" duration="8426000" />
+      <workItem from="1480496794085" duration="8681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8426000" />
+    <option name="totallyTimeSpent" value="8681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -894,17 +933,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/video-babel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
+        <state relative-caret-position="1782">
           <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
-          <folding>
-            <marker date="1480519027000" expanded="true" signature="3158:4330" placeholder="{...}" />
-            <marker date="1480519027000" expanded="true" signature="3176:4324" placeholder="&lt;xml/&gt;" />
-            <marker date="1480519027000" expanded="true" signature="3224:4091" placeholder="&lt;xml/&gt;" />
-            <marker date="1480519027000" expanded="true" signature="3262:4072" placeholder="&lt;xml/&gt;" />
-            <marker date="1480519027000" expanded="true" signature="3335:4049" placeholder="&lt;xml/&gt;" />
-            <marker date="1480519027000" expanded="true" signature="4104:4309" placeholder="&lt;xml/&gt;" />
-            <marker date="1480519027000" expanded="true" signature="4142:4290" placeholder="&lt;xml/&gt;" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nexttrip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="49" column="60" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/navigation.tml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
