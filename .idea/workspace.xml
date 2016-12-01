@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2561ab05-56f8-485b-a5cf-a6f0bc3500e4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nexttrip.html" afterPath="$PROJECT_DIR$/nexttrip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo.html" afterPath="$PROJECT_DIR$/photo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video.html" afterPath="$PROJECT_DIR$/video.html" />
     </list>
     <ignored path="vc10500.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="video.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="video.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="62" column="132" selection-start-line="62" selection-start-column="132" selection-end-line="62" selection-end-column="132" />
+            <state relative-caret-position="150">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,8 +90,8 @@
       <file leaf-file-name="nexttrip.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nexttrip.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="95" column="13" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,8 +100,8 @@
       <file leaf-file-name="photo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="87" column="13" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,13 +129,13 @@
       <list>
         <option value="$PROJECT_DIR$/js/photo-babel.js" />
         <option value="$PROJECT_DIR$/views/navigation.tml" />
-        <option value="$PROJECT_DIR$/photo.html" />
-        <option value="$PROJECT_DIR$/nexttrip.html" />
-        <option value="$PROJECT_DIR$/video.html" />
         <option value="$PROJECT_DIR$/photos/list_all.json" />
         <option value="$PROJECT_DIR$/data/video.json" />
         <option value="$PROJECT_DIR$/js/video-babel.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/nexttrip.html" />
+        <option value="$PROJECT_DIR$/photo.html" />
+        <option value="$PROJECT_DIR$/video.html" />
       </list>
     </option>
   </component>
@@ -861,12 +864,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480496791342</updated>
-      <workItem from="1480496794085" duration="15628000" />
+      <workItem from="1480496794085" duration="15836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15628000" />
+    <option name="totallyTimeSpent" value="15836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -947,22 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="87" column="13" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nexttrip.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="95" column="13" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photos/list_all.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -979,14 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/video-babel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -997,8 +976,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="62" column="132" selection-start-line="62" selection-start-column="132" selection-end-line="62" selection-end-column="132" />
+        <state relative-caret-position="150">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nexttrip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
