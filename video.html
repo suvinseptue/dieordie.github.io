@@ -12,24 +12,58 @@
     <title>Being towards death</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="vendor/jquery.fullPage.css" rel="stylesheet">
+    <link href="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/vendor/jquery.fullPage.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/css/creative.min.css" rel="stylesheet">
     <style>
-        .thumb-list{
-            margin: auto;
-        }
-        .thumb-list .row img{
-            width;:100%;
+
+        .thumb-list {
+            margin-top: 70px;
         }
 
+        .thumb-list .row img {
+            width: 100%;
+        }
+
+        .map-line {
+            opacity: 0;
+            position: absolute;
+            margin-top: 70px;
+            width: 100px;
+            /*background: url(img/circle-point.png) repeat-y;*/
+        }
+
+        .map-item {
+            width: 80px;
+            height: 80px;
+            background: #F05F40;
+            -moz-border-radius: 40px;
+            -webkit-border-radius: 40px;
+            border-radius: 40px;
+            position: relative;
+        }
+        .map-content {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+            height: 80%;
+            background: white;
+            border-radius: 50%;
+            display: table;
+        }
+        .map-content .content-desc{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -39,8 +73,26 @@
 
 </nav>
 
-<div id="contentList"></div>
+<div class="map-line" id="mapLine">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+                <a href="#">
+                    <div class="map-item">
+                        <div class="map-content">
+                           <div class="content-desc">仙本那</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-4"></div>
+            <div class="col-xs-4"></div>
+        </div>
+    </div>
 
+</div>
+
+<div id="contentList"></div>
 
 
 <section id="contact">
@@ -48,24 +100,24 @@
 </section>
 
 <!-- jQuery -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/jquery.fullPage.min.js"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/vendor/jquery/jquery.min.js"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/vendor/jquery.fullPage.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/vendor/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Plugin JavaScript -->
-<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="js/lib/react/react.min.js"></script>
-<script src="js/lib/react/react-dom.min.js"></script>
-<script src="js/lib/react/browser.min.js"></script>
-<script src="js/tools/eventable.js"></script>
-<script src="js/store/photo-store.js"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/js/lib/react/react.min.js"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/js/lib/react/react-dom.min.js"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/js/lib/react/browser.min.js"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/js/tools/eventable.js"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/js/store/photo-store.js"></script>
 
 <!-- Theme JavaScript -->
-<script src="js/creative.min.js"></script>
-<script src="js/video-babel.js" type="text/babel"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/js/creative.min.js"></script>
+<script src="http://static9.pplive.cn/oth/2012/10/static9/webbn/v_20161201104530/js/video-babel.js" type="text/babel"></script>
 
 </body>
 
