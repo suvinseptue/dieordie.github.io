@@ -104,7 +104,7 @@ var VideoSection = React.createClass({
                             if (typeof this.state.data != 'undefined') {
                                 return (
                                     <div>
-                                        <video onClick={this.thumbClick} style={{margin:"auto"}} loop playsinline webkit-playsinline
+                                        <video onClick={this.thumbClick} style={{margin:"auto",width:"100%",height:"100%"}} loop is playsinline webkit-playsinline
                                                src={this.props.photos.Key} poster={this.props.photos.Poster}
                                                className="img-responsive"
                                         />
