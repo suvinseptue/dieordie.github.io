@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2561ab05-56f8-485b-a5cf-a6f0bc3500e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/photo-babel.js" afterPath="$PROJECT_DIR$/js/photo-babel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photos/list_all.json" afterPath="$PROJECT_DIR$/photos/list_all.json" />
     </list>
     <ignored path="vc10500.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photo-babel.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="photo-babel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/photo-babel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="402">
               <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_all.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/photos/list_all.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="0" column="10789" selection-start-line="0" selection-start-column="10789" selection-end-line="0" selection-end-column="10789" />
               <folding />
             </state>
           </provider>
@@ -71,8 +81,8 @@
         <option value="$PROJECT_DIR$/nexttrip.html" />
         <option value="$PROJECT_DIR$/photo.html" />
         <option value="$PROJECT_DIR$/video.html" />
-        <option value="$PROJECT_DIR$/photos/list_all.json" />
         <option value="$PROJECT_DIR$/js/photo-babel.js" />
+        <option value="$PROJECT_DIR$/photos/list_all.json" />
       </list>
     </option>
   </component>
@@ -810,12 +820,12 @@
       <updated>1480496791342</updated>
       <workItem from="1480496794085" duration="16217000" />
       <workItem from="1480640389906" duration="945000" />
-      <workItem from="1480642942854" duration="249000" />
+      <workItem from="1480642942854" duration="416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17411000" />
+    <option name="totallyTimeSpent" value="17578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -946,14 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photos/list_all.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="0" column="9701" selection-start-line="0" selection-start-column="9701" selection-end-line="0" selection-end-column="9701" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
@@ -966,6 +968,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/list_all.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="0" column="10789" selection-start-line="0" selection-start-column="10789" selection-end-line="0" selection-end-column="10789" />
           <folding />
         </state>
       </provider>
