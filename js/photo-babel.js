@@ -98,7 +98,7 @@ var PhotoSection = React.createClass({
                     return <div className="col-xs-4">
                         <a href="#thumbnail" className="thumbnail"
                            onClick={this.thumbClick.bind(this,"http://dieordie.oss-cn-shanghai.aliyuncs.com/"+e.Key)}>
-                            <img src={"http://dieordie.oss-cn-shanghai.aliyuncs.com/"+e.Key} className="img-responsive"
+                            <img src={"//dieordie.oss-cn-shanghai.aliyuncs.com/"+e.Key} className="img-responsive"
                                  alt=""/>
                         </a>
                     </div>
