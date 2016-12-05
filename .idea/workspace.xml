@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2561ab05-56f8-485b-a5cf-a6f0bc3500e4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/video.json" afterPath="$PROJECT_DIR$/data/video.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photos/list_all.json" afterPath="$PROJECT_DIR$/photos/list_all.json" />
     </list>
     <ignored path="vc10500.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,31 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="photo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="video.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/video.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photo-babel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/photo-babel.js">
+      <file leaf-file-name="list_all.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/photos/list_all.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+            <state relative-caret-position="183">
+              <caret line="0" column="6251" selection-start-line="0" selection-start-column="6243" selection-end-line="0" selection-end-column="6251" />
               <folding />
             </state>
           </provider>
@@ -823,12 +812,12 @@
       <workItem from="1480640389906" duration="945000" />
       <workItem from="1480642942854" duration="744000" />
       <workItem from="1480668963423" duration="597000" />
-      <workItem from="1480900782221" duration="630000" />
+      <workItem from="1480900782221" duration="977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19133000" />
+    <option name="totallyTimeSpent" value="19480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -957,14 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photos/list_all.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="0" column="10298" selection-start-line="0" selection-start-column="10298" selection-end-line="0" selection-end-column="10298" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/photo-babel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -973,10 +954,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/photos/list_all.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="0" column="6251" selection-start-line="0" selection-start-column="6243" selection-end-line="0" selection-end-column="6251" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/video.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="87" />
           <folding />
         </state>
       </provider>
