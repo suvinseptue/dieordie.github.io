@@ -108,6 +108,9 @@ var VideoSection = React.createClass({
                                                src={this.props.photos.Key} poster={this.props.photos.Poster}
                                                className="img-responsive"
                                         />
+                                        <a className="btn-download" href={this.props.photos.Key}>
+                                            <i className="fa fa-download" aria-hidden="true"></i>
+                                        </a>
                                     </div>
                                 )
                             }
