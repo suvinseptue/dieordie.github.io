@@ -9,3 +9,12 @@ var ScrollBarStore = Object.assign({},new Eventable(),{
         this.emit("load",e);
     }
 });
+
+var PageStore = Object.assign({},new Eventable(),{
+    onReload:function(callback){
+        this.on("reload",callback)
+    },
+    emitReload:function(e){
+        this.emit("reload",e);
+    }
+});

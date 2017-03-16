@@ -1,3 +1,5 @@
+
+var menuToggle = false;
 var Navigation = React.createClass({
 
     getInitialState: function () {
@@ -26,18 +28,22 @@ var PhotoList = React.createClass({
     },
     componentDidMount: function () {
         $.ajax({
-            url: "photos/list_all.json",
+            url: "photos/cebu.json",
             dataType: "json"
         }).success(function (res) {
             this.setState({data: res.Contents});
         }.bind(this));
+
+        PageStore.onReload(function (data) {
+            this.setState({data: data});
+        }.bind(this));
     },
     render: function () {
         var shard = chunked(this.state.data, 3);
-        console.log(shard);
         return (<ul className="container thumb-list">
             {
                 shard.map(function (part, idx) {
+
                     return <PhotoSection photos={part} index={idx}/>
                 })
             }
@@ -45,11 +51,17 @@ var PhotoList = React.createClass({
         </ul>)
     },
     componentDidUpdate: function () {
-        $('#photoList').fullpage({
-            afterLoad: function (anchorLink, index) {
-                ScrollBarStore.emitScroll(index);
-            }
-        });
+        if (!this.inited) {
+            $('#photoList').fullpage({
+                afterLoad: function (anchorLink, index) {
+                    ScrollBarStore.emitScroll(index);
+                }
+            });
+            this.inited =true;
+        } else {
+            $.fn.fullpage.reBuild();
+        }
+        $.fn.fullpage.moveTo(1);
         ScrollBarStore.emitScroll(0);
     }
 });
@@ -82,7 +94,7 @@ var PhotoSection = React.createClass({
     ,
     componentDidMount: function () {
         ScrollBarStore.onScroll(function (idx) {
-            if (idx == this.props.index && !this.state.loaded) {
+            if ((idx == this.props.index && !this.state.loaded)|| menuToggle) {
                 this.setState({data: this.props.photos, loaded: true})
             }
         }.bind(this));
@@ -107,6 +119,33 @@ var PhotoSection = React.createClass({
         </div>
     }
 });
+var Footprint = React.createClass({
+    footClick: function (dir) {
+        $.ajax({
+            url: "photos/" + dir,
+            dataType: "json"
+        }).success(function (res) {
+            menuToggle = true;
+            PageStore.emitReload(res.Contents);
+            menuToggle=false;
+        });
+    },
+
+    render: function () {
+        return <div>
+            <i className="fa fa-street-view fa-2x" aria-hidden="true" data-toggle="collapse" aria-expanded="false"
+               aria-controls="mapItems"></i>
+
+            <div className="collapse btn-group dropup" id="mapItems">
+                <button type="button" class="btn" onClick={this.footClick.bind(this,"cebu.json")}>Cebu</button>
+                <button type="button" class="btn" onClick={this.footClick.bind(this,"list_all.json")}>Semporna</button>
+            </div>
+        </div>
+    }
+
+});
+
+
 function chunked(arr, cap) {
     var res = [];
     var partition = [];
@@ -126,3 +165,4 @@ function chunked(arr, cap) {
 
 ReactDOM.render(<Navigation />, document.getElementById('pageNav'));
 ReactDOM.render(<PhotoList />, document.getElementById('photoList'));
+ReactDOM.render(<Footprint />, document.getElementById('footprint'));
